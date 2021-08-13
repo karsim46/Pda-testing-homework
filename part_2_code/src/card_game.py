@@ -18,7 +18,7 @@ class CardGame:
     if card1.value > card2.value:
       return card1
     else:
-        return card2
+      return card2
   
 
 
@@ -26,4 +26,4 @@ class CardGame:
     total = 0
     for card in cards:
       total += card.value
-    return "You have a total of", + total
+    return "You have a total of " + str(total)

@@ -25,8 +25,8 @@ class TestCardGame(unittest.TestCase):
         
 
     def test_cards_total(self):
-        total= self.card.cards_total(self.all_cards)
-        self.assertEqual=('You have a total of ',total)
+        result= self.card.cards_total(self.all_cards)
+        self.assertEqual('You have a total of ' +str(16), result)
         
 
     
